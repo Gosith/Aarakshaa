@@ -1,0 +1,29 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 50px; */
+    background-color: #29393B;
+    height: 75px;
+    color: azure;
+}
+
+.footer-name {
+    padding: 25px;
+}
+
+.footer-logos {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logos a{
+    margin: 0 1rem;
+}
+
+
+.footer-logos a i{
+   height: 25px;
+   width: 25px;
+   color: whitesmoke;
+}

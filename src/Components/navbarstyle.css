@@ -1,0 +1,251 @@
+.NavBarItems {
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  left: 50%;
+  transition: all 600ms ease;
+  top: 0px;
+  transform: translate(-50%);
+}
+
+.logo-scrolled {
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  transition: all 350ms ease;
+  display: block;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  display: block;
+  
+  transition: all 350ms ease;
+}
+
+.scrolled {
+  background-color: rgb(249, 246, 242);
+  transition: all 600ms ease;
+}
+
+.solid {
+  color: rgb(0, 0, 0) ff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navbar-logo {
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 600ms ease;
+}
+
+.navbar-logo {
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  transition: all 100ms ease-int;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.7rem 1rem;
+  transition: all 600ms ease;
+  white-space: nowrap;
+}
+
+.nav-links-scrolled {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 600ms ease;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-links i {
+  padding-right: 20px;
+}
+
+.nav-links-scrolled i {
+  padding-right: 20px;
+}
+
+li:not(:last-child) {
+  border-right: 2px solid #ffffff;
+}
+
+.fa-times {
+  position: fixed;
+  top: 27px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(249, 249, 249);
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  background-color: rgba(254, 255, 255, 0.193);
+  /* color: #fff; */
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-icons {
+  display: none;
+  transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 850px) {
+  .NavBarItems {
+    z-index: 99;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(247, 242, 242);
+  }
+
+  .NavBarItems-scrolled {
+    z-index: 99;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+  }
+  li:not(:last-child) {
+    border-right: 2px solid #ffffff00;
+  }
+
+  .scrolled {
+    background-color: #ffffff;
+  }
+
+  .logo {
+    width: 80px;
+    height: 39px;
+    margin-left: 15px;
+    transition: all 350ms ease;
+    display: block;
+    margin-top: 1px;
+  }
+
+  .logo-scrolled {
+    width: 80px;
+    height: 39px;
+    margin-left: 15px;
+    margin-top: 1px;
+    transition: all 350ms ease;
+    display: block;
+  }
+  
+  .fa-times {
+    color: rgb(0, 0, 0);
+  }
+
+  .fa-times .scrolled-hamburger .all {
+    color: rgb(0, 0, 0);
+  }
+
+  .fa-bars {
+    color: rgb(0, 0, 0);
+  }
+
+  .scrolled-hamburger {
+    color: black;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 100%;
+    left: -100%;
+    /* opacity: 1; */
+    align-items: stretch;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+  }
+
+  .nav-menu.scrolled {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 100%;
+    left: -100%;
+    /* opacity: 1; */
+    align-items: stretch;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+  }
+  .nav-menu.active {
+    /* background-color: #fff; */
+    left: 0;
+    /* opacity: 1; */
+    z-index: -1;
+    /* transition: all 0.4s ease-in-out; */
+    top: 100%;
+  }
+
+  .whitebg {
+    background-color: #fff;
+  }
+
+  .lock-scroll {
+    overflow: hidden;
+  }
+
+  .nav-links-scrolled {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+
+  .nav-links {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+  .menu-icons {
+    display: block;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .nav-links:hover {
+    background: #f2f2f26d;
+    transition: none;
+  }
+}

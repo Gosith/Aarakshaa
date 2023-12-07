@@ -1,0 +1,160 @@
+.services-section {
+    height: 100px;
+    background-color: rgb((113, 77, 77)30, 119, 119);
+    transform: translateY(-1474px);
+    width: 70vw;
+    /* display: block; */
+    margin: auto;
+}
+
+.breaker {
+    height: 2px;
+    width: 15vw;
+    margin-top: 20px;
+    background-color: aqua;
+    position: relative;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.service-carousel {
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.service-carousel-rev {
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+.service-image {
+    width: 50%;
+}
+
+.service-description {
+    width: 50%;
+    vertical-align: middle;
+    display: grid;
+}
+
+
+
+.service-description h2 {
+    margin: 50px 0 0 0;
+}
+
+.service-description-rev h2 {
+    margin: 50px 0 50px 0;
+}
+
+.service-description-rev {
+    width: 50%;
+    vertical-align: middle;
+    display: grid;
+    padding-left: 80px;
+}
+
+.rounded-image {
+    border: solid 3px aqua;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    border-radius: 50%;
+    vertical-align: auto;
+    overflow: hidden;
+}
+
+.content-link {
+    border: solid 1px aqua;
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+    vertical-align: auto;
+}
+
+.img-area {
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.service-para {
+    vertical-align: middle;
+    padding-right: 0px;
+    display: table-cell;
+    text-align: justify;
+    width: 90%;
+}
+
+.service-para-rev {
+    vertical-align: middle;
+    padding-right: 0px;
+
+    display: table-cell;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 850px) {
+    .service-image {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-carousel-rev {
+        display: flex;
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+
+
+    .service-carousel {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        /* height: 40px; */
+    }
+
+
+    .service-para {
+        vertical-align: middle;
+        padding-right: 0px;
+        display: table-cell;
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-para-rev {
+        vertical-align: middle;
+        padding-right: 0px;
+        display: table-cell;
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-description {
+        width: 100%;
+        vertical-align: middle;
+        display: grid;
+        margin: auto;
+    }
+
+    .service-description-rev {
+        width: 100%;
+        vertical-align: middle;
+        display: grid;
+        margin: auto;
+    }
+
+    .service-description h2 {
+        margin: 50px 0 50px 0;
+    }
+}

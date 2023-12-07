@@ -1,0 +1,13 @@
+.faded-logo{
+    display: relative;
+    margin-top: 50px;
+    transform: translate(-34%);
+}
+
+.faded-logo img{
+    height: 95rem;
+    width: 62rem;
+    z-index: -999;
+    opacity: 10%;
+    
+}
