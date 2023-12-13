@@ -72,35 +72,3 @@ class Navbar extends Component {
   }
 }
 export default Navbar;
-
-// function Navbar() {
-
-//     const handleMenuClick = () => {
-//         this.setState({clicked:!this.state.clicked})
-//     };
-
-//     // Assuming that bodyscrolllock() is a custom hook you've defined
-//     // and it returns the 'isLocked' state and a 'toggle' function
-//     const [isLocked, toggle] = bodyscrolllock();
-
-//     return (
-//         <nav className="NavBarItems">
-//             <h1 className="navbar-logo">Dawn Resorts</h1>
-//             <div className="menu-icons">
-//                 <i onClick={handleMenuClick} className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
-//             </div>
-//             <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-//                 {MenuItems.map((item, index) => (
-//                     <li key={index}>
-//                         <a className={item.cName} href={item.url}>
-//                             <i className={item.icon}></i>
-//                             {item.title}
-//                         </a>
-//                     </li>
-//                 ))}
-//             </ul>
-//         </nav>
-//     );
-// }
-
-// export default Navbar;

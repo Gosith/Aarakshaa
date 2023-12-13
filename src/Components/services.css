@@ -21,13 +21,13 @@
 .service-carousel {
     display: flex;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 55px;
 }
 
 .service-carousel-rev {
     display: flex;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -152,9 +152,20 @@
         vertical-align: middle;
         display: grid;
         margin: auto;
+        padding-left: 0;
     }
 
     .service-description h2 {
         margin: 50px 0 50px 0;
     }
+
+    .services-section {
+        height: 570px;
+        background-color: rgb((113, 77, 77)30, 119, 119);
+        transform: translateY(-1474px);
+        width: 70vw;
+        /* display: block; */
+        margin: auto;
+    }
+
 }

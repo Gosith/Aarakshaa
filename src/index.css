@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
 
 body {
   margin: 0;
@@ -7,20 +9,23 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: "Poppins";
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(249, 246, 242);
 }
-/* ::-webkit-scrollbar {
+
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 html {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
 }

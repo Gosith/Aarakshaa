@@ -1,0 +1,47 @@
+.highlights-div {
+    height: 200px;
+    display: flex;
+    padding-top: 75px;
+}
+
+.icon-list {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, auto);
+    margin: 0 auto;
+}
+
+.icon-wrapper {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: #4fc5d2   ;
+    margin: auto;
+    border-radius: 80px;
+}
+
+.highlights-link{
+    color:  #ffffff;
+    margin-top: 3px;
+}
+
+.highlight-desc{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    
+.icon-list {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(2, auto);
+    margin: 0 auto;
+}
+
+.highlights-div {
+    height: 400px;
+    display: flex;
+    padding-top: 80px;
+}
+  }
+
