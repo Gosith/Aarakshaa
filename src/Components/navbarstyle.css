@@ -201,7 +201,7 @@ li:not(:last-child) {
     position: absolute;
     transition: all 0.4s ease-in-out;
     top: 100%;
-    left: -100%;
+    left: -105%;
     /* opacity: 1; */
     align-items: stretch;
     padding: 20px 0 30px 0;

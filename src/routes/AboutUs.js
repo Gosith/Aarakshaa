@@ -1,15 +1,23 @@
 import Navbar from "../Components/Navbar";
-import Slider from "../Components/slideshow";
-import Description from "../Components/Description";
-import Booking from "../Components/Booking";
+import Hero from "../Components/Hero";
 import FadedLogo from "../Components/InPageLogo";
-import Services from "../Components/Services";
+import img from "../assets/Corporate Office Looper Q3 2021.jpg";
+import Footer from "../Components/Footer";
+import Aboutus from "../Components/AboutUs";
 import { React, forwardRef } from "react";
 function AboutUs() {
     return (
         <>
+            <Hero
+                cName="hero-mid"
+                heroImg={img}
+                title="About Us"
+            />
             <Navbar />
-           
+            <Aboutus/>
+            <FadedLogo />
+            <Footer />
+
         </>
     );
 }

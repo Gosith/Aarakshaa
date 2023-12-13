@@ -2,6 +2,7 @@
     display: relative;
     margin-top: 50px;
     transform: translate(-34%);
+    height: fit-content;
 }
 
 .faded-logo img{
