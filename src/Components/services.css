@@ -44,11 +44,13 @@
 
 
 .service-description h2 {
-    margin: 50px 0 0 0;
+    margin: 80px 0 -100px 0;
+    text-align: left;
 }
 
 .service-description-rev h2 {
-    margin: 50px 0 50px 0;
+    margin: 80px 0 -100px 0;
+    text-align: left;   
 }
 
 .service-description-rev {
@@ -90,13 +92,14 @@
     padding-right: 0px;
     display: table-cell;
     text-align: justify;
+    color: rgba(0, 0, 0, 0.588);
     width: 90%;
 }
 
 .service-para-rev {
     vertical-align: middle;
     padding-right: 0px;
-
+    color: rgba(0, 0, 0, 0.588);
     display: table-cell;
     text-align: justify;
 }

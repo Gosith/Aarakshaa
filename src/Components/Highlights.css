@@ -6,7 +6,7 @@
 
 .icon-list {
     display: grid;
-    grid-gap: 100px;
+    grid-gap: 150px;
     grid-template-columns: repeat(4, auto);
     margin: 0 auto;
 }
@@ -27,6 +27,10 @@
 
 .highlight-desc{
     margin-top: 20px;
+}
+
+.highlight-icon{
+    width: 170px;
 }
 
 @media screen and (max-width: 850px) {

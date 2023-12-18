@@ -11,12 +11,12 @@ export const Highlightsitems = [
 
     },
     {
-        title:"Success rate",
+        title:"Client oriented service",
         iconname:"fa fa-thumbs-up fa-3x",
         cname:"highlights-link"
     },
     {
-        title:"24x7 contact",
+        title:"24x7 support ",
         iconname:"fa fa-phone fa-3x",
         cname:"highlights-link"
     }

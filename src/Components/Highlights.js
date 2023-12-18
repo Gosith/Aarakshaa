@@ -16,7 +16,7 @@ function Highlights() {
                             </div>
                             <div className='highlight-desc'>
                                 <span className='high-desc'>
-                                    Years of excellence
+                                    {item.title}
                                 </span>
                             </div>
                         </div>
