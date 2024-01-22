@@ -37,12 +37,8 @@ class Navbar extends Component {
     document.body.classList.toggle("lock-scroll");
   };
 
-  
-  
-
   render() {
     const { isScrolled } = this.state;
-
     return (
       <nav className={`NavBarItems`} >
         {/* <h1 className={`${isScrolled ? 'solid' : 'navbar-logo'}`}>Dawn Resorts</h1> */}

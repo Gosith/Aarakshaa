@@ -14,7 +14,7 @@ function Contact() {
                 heroImg={img}
                 title="Contact"
             />
-            <FadedLogo />
+            
             <ContactFrm/>
             <Footer />
         </>

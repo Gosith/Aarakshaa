@@ -6,7 +6,7 @@ body {
   .slideshow-container {
     min-width: 1500px;
     margin-top: 5rem;
-    height: 65vh;
+    /* height: 65vh; */
     animation: all 360ms;
     overflow: hidden;
     position: relative;
@@ -19,7 +19,8 @@ body {
   
   .slide img {
     width: 100%;
-    min-height: 65vh;
+    
+    height: 100%;
     object-fit: cover;
   }
   

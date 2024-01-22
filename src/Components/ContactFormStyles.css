@@ -1,5 +1,5 @@
 .form-container{
-    transform: translateY(-1525px);
+    /* transform: translateY(-1525px); */
     margin: 4rem 6rem;
     color: #2a2a2a;
 }
@@ -16,15 +16,21 @@ textarea{
     resize: none;
 }
 
+label{
+    font-size: 1.1rem;
+}
+
 .form-container input{
     height: 3rem;
     padding: 0 1rem;
+    font-size: 1rem;
     margin-bottom: 4rem;
     border-radius: .3rem;
     border: 1px solid #4fc5d2;
 }
 .form-container textarea{
-    padding: 0 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
     border: 1px solid #4fc5d2;
@@ -35,6 +41,7 @@ textarea{
     width: 80%;
     height: 2rem;
     border: none;
+    font-size: 1rem;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +51,7 @@ textarea{
     height: 3rem;
     padding: 0 1rem;
     margin-bottom: 4rem;    
-
+    font-size: 1rem;  
     border-radius: .3rem;
     border: 1px solid #4fc5d2;
 }
@@ -53,6 +60,17 @@ textarea{
     text-align: left;
     margin-bottom: 15px;
 }
+
+.contact-info{
+    display: flex;
+    margin: 4rem 6rem;
+    
+}
+
+.contact-container{
+    
+}
+
 
 @media screen and (max-width:855px){
     .form-container{

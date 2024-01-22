@@ -7,22 +7,32 @@ function teamcard() {
         <div className='member-section'>
             {Teamdetails.map((item, index) => {
                 return (
-                    <div className="member-carousel">
-                        <div className='member-image'>
-                            <div className='member-rounded-image'>
-                                {/* <a className='member-content-link' href="/home"> */}
-                                    <img className='member-img-area' src ={item.pp}  alt="" />
-                                    <div className='member-description-div'>
 
+                    <div className='team'>
+                        <div className='team-name'>{item.title}</div>
+                        <div className='team-members'>
+                        {item.team.map((item2, index2) => {
+                            return (
+                                <div className="member-carousel">
+                                    <div className='member-image'>
+                                        <div className='member-rounded-image'>
+
+                                            <img className='member-img-area' src={item2.pp} alt="" />
+                                            <div className='member-description-div'>
+
+                                            </div>
+
+                                        </div>
                                     </div>
-                                {/* </a> */}
-                            </div>
-                        </div>
-                        <div className='member-description'>
-                            <h2>{item.name}</h2>
-                            <p className='member-para'>
-                                {item.description}
-                            </p>
+                                    <div className='member-description'>
+                                        <h2>{item2.name}</h2>
+                                        <p className='member-para'>
+                                            {item2.description}
+                                        </p>
+                                    </div>
+                                </div>
+                            )
+                        })}
                         </div>
                     </div>
                 )

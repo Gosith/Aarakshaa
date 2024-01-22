@@ -1,10 +1,11 @@
 .services-section {
-    height: 100px;
+    height: fit-content;
     background-color: rgb((113, 77, 77)30, 119, 119);
-    transform: translateY(-1474px);
+    /* transform: translateY(-1474px); */
     width: 70vw;
     /* display: block; */
     margin: auto;
+    margin-top: 150px;
 }
 
 .breaker {
@@ -27,7 +28,7 @@
 .service-carousel-rev {
     display: flex;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 
@@ -116,6 +117,7 @@
         display: flex;
         height: fit-content;
         flex-direction: column-reverse;
+        margin-top: 120px;
     }
 
 
@@ -154,21 +156,26 @@
         width: 100%;
         vertical-align: middle;
         display: grid;
+        padding-left: 0px;
         margin: auto;
-        padding-left: 0;
     }
 
     .service-description h2 {
         margin: 50px 0 50px 0;
+        text-align: center;
     }
 
+    .service-description-rev h2 {
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
     .services-section {
         height: 570px;
         background-color: rgb((113, 77, 77)30, 119, 119);
         transform: translateY(-1474px);
         width: 70vw;
         /* display: block; */
-        margin: auto;
+        margin-top:1600px;
     }
 
 }

@@ -53,7 +53,12 @@ const ContactForm = () => {
 
 
     return (
-        <div className="form-container">
+        <div className="contact-info">
+            <div className="contact-container">
+                <h2 className="contact-heading">CONTACT US!</h2>
+                
+            </div>
+            <div className="form-container">
             <h1>Hi! We would love to hear from you</h1>
             <form onSubmit={handleSubmit}>
 
@@ -93,6 +98,7 @@ const ContactForm = () => {
 
                 <button>Send Message</button>
             </form>
+        </div>
         </div>
     );
 }

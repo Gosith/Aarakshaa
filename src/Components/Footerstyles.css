@@ -8,6 +8,12 @@
     bottom: 0;
 }
 
+.footer-div{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100vw;
+}
+
 .footer-name {
     padding: 25px;
 }
