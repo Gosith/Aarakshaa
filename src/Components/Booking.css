@@ -1,77 +1,99 @@
-.booking-section{
+.booking-section {
     display: flex;
     height: fit-content;
     /* position: absolute; */
     /* flex-direction: row; */
 }
 
-.booking-region{
+.booking-region {
     width: 50vw;
     background-color: #4fc5d2;
     height: 400px;
 }
 
-.booking-img{
+.booking-img {
     width: 48vw;
     height: 40vh;
 }
 
-.booking-img img{
+.booking-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+
+.booking-btn:hover {
+   background-color: #24efd1;
+}
+
+.booking-btn::after{
+    background-color: #2435ef;
+}
+
+
+.booking-img img {
     height: 400px;
     width: fit-content;
 }
 
-.booking-text{
+.booking-text {
     align-items: center;
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 10rem;
     display: block;
 }
 
-.booking-line{
+.booking-line {
     margin-bottom: 1rem;
     display: block;
     font-size: 30px;
 }
 
-.booking-btn{
-    background: #fff;
-  font-size: 1.1 rem;
-  display: block;
-  width: 8rem;
-  margin: auto;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  font-weight: 100;
-  border-radius: 6px;
-  color: #222;
-  letter-spacing: 2px;
+.booking-btn {
+    background: #751212;
+    font-size: 1.1 rem;
+    display: block;
+    width: 8rem;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 100;
+    border-radius: 6px;
+    color: #222;
+    letter-spacing: 2px;
+    z-index: 1;
 }
 
 
-@media screen and (max-width: 768px){
-    .trip{
+@media screen and (max-width: 768px) {
+    .trip {
         margin: 4rem 1.5rem;
     }
 
-    .booking-section{
-      padding-top: 10px;
-      margin-left: 5px;
-      margin-right: 5px;
-      flex-direction: column;
+    .booking-section {
+
+        flex-direction: column;
     }
 
-    .booking-region{
+    .booking-region {
         width: 100%;
-    
+
     }
 
-    .booking-img{
+    .booking-img {
         width: 100%;
         height: 100%;
     }
 
-    .booking-img img{
+    .booking-img img {
         width: 100%;
         height: 100%;
     }

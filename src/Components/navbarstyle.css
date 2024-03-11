@@ -15,20 +15,12 @@
   transform: translate(-50%);
 }
 
-.logo-scrolled {
-  width: 100px;
-  height: 50px;
-  margin-left: 30px;
-  transition: all 350ms ease;
-  display: block;
-}
-
 .logo {
-  width: 100px;
-  height: 50px;
+  width: 170px;
+  height: 100px;
+  margin-top: -10px;
   margin-left: 30px;
   display: block;
-  
   transition: all 350ms ease;
 }
 
@@ -201,7 +193,7 @@ li:not(:last-child) {
     position: absolute;
     transition: all 0.4s ease-in-out;
     top: 100%;
-    left: -100%;
+    left: -105%;
     /* opacity: 1; */
     align-items: stretch;
     padding: 20px 0 30px 0;

@@ -66,7 +66,7 @@ function Services() {
                     </div>
                 </div>
                 <div className='service-description'>
-                    <h2>Personal Insurance</h2>
+                    <h2>Mortgages</h2>
                     <p className='service-para'>For families with young adventurers, we provide an array
                     of kid-friendly activities, from nature exploration to educational
                     fun- like birdwatching. Dawn Resorts is more than just a place to
