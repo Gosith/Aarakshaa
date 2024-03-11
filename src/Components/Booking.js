@@ -9,7 +9,7 @@ function Booking() {
             <div className='booking-text'>
                <span className='booking-line'> Book your appointment with us!</span>
                 
-                <a href="" className='booking-btn'>Book now</a>
+                <button href="" className='booking-btn'>Book now</button>
             </div>
         </div>
         <div className='booking-img'>

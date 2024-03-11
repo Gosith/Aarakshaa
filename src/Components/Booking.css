@@ -16,28 +16,6 @@
     height: 40vh;
 }
 
-.booking-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: -1;
-    transform-origin: left;
-    transition: transform 0.5s ease;
-    transform: scaleX(1);
-}
-
-.booking-btn:hover {
-   background-color: #24efd1;
-}
-
-.booking-btn::after{
-    background-color: #2435ef;
-}
-
 
 .booking-img img {
     height: 400px;
@@ -54,23 +32,49 @@
 .booking-line {
     margin-bottom: 1rem;
     display: block;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .booking-btn {
-    background: #751212;
-    font-size: 1.1 rem;
-    display: block;
-    width: 8rem;
-    margin: auto;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    font-weight: 100;
-    border-radius: 6px;
-    color: #222;
-    letter-spacing: 2px;
-    z-index: 1;
+    --c: white;
+    /* the color*/
+
+    box-shadow: 0 0 0 .1em inset var(--c);
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    border-radius: 5rem;
+    background:
+        var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+        var(--_g) calc(200% - var(--_p, 0%)) 0%,
+        var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+        var(--_g) calc(200% - var(--_p, 0%)) 100%;
+    background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .3s, background-position 0s .3s,transform 0.3s;
+    font-size: 1.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: .1em .6em;
+    border: none;
+    color: white;
+    
 }
+
+.booking-btn:hover {
+    --_p: 100%;
+    color: black;
+    transition: background-position .4s, background-size 0s,transform 0.3s;
+}
+
+.booking-btn:active {
+
+    box-shadow: 0 0 9e9q inset #0009;
+    background-color: var(--c);
+    color: #fff;
+}
+
+
+
+
 
 
 @media screen and (max-width: 768px) {

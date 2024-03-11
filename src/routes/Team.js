@@ -14,7 +14,7 @@ function Team() {
                 heroImg={img}
                 title="Meet the team"
             />
-            <FadedLogo />
+            {/* <FadedLogo /> */}
             <Infocard/>
             <Footer />
 

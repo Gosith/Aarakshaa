@@ -14,8 +14,8 @@ function AboutUs() {
                 title="About Us"
             />
             <Navbar />
-            <Aboutus/>
             <FadedLogo />
+            <Aboutus/>
             <Footer />
 
         </>

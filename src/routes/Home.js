@@ -16,7 +16,7 @@ function Home() {
             <Description />
             <Booking />
             <Highlights/>
-            <FadedLogo />
+            {/* <FadedLogo /> */}
             <Services />
             <Footer />
         </>
