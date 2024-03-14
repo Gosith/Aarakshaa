@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from "../assets/ols.jpeg";
 import "./Highlights.css";
-import { Highlightsitems } from "../Components/Highlightsitems";
+import { Highlightsitems } from "../Data/Highlightsitems";
 
 function Highlights() {
     return (

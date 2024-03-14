@@ -1,6 +1,6 @@
 import { React,Component } from "react";
 import "./navbarstyle.css";
-import { MenuItems } from "./MenuItems";
+import { MenuItems } from "../Data/MenuItems";
 // import bodyscrolllock from "./bodyscolllock";
 import logo from "../assets/Aarakshaa Final Logo 2.png";
 
