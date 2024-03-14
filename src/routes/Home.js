@@ -6,6 +6,7 @@ import FadedLogo from "../Components/InPageLogo";
 import Services from "../Components/Services";
 import Footer from "../Components/Footer";
 import Highlights from "../Components/Highlights";
+import LogoCarousel from "../Components/LogoCarousel";
 
 import { React, forwardRef } from "react";
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
             <Booking />
             <Highlights/>
             {/* <FadedLogo /> */}
+            <LogoCarousel />
             <Services />
             <Footer />
         </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Infocard.css";
-import { Teamdetails } from "./Teamdetails";
+import { Teamdetails } from "../Data/Teamdetails";
 
 function teamcard() {
     return (
@@ -26,6 +26,7 @@ function teamcard() {
                                     </div>
                                     <div className='member-description'>
                                         <h2>{item2.name}</h2>
+                                        <h4>{item2.role}</h4>
                                         <p className='member-para'>
                                             {item2.description}
                                         </p>
