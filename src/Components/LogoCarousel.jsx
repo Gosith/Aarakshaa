@@ -7,6 +7,7 @@ import ANZ from "../assets/Anz Logo Horizontal Blue For Screen_106100.png";
 import Aurora from "../assets/Aurora Capital_Logo_COLOUR_RGB.png";
 import Milford from "../assets/Milford_Colour.png";
 import Generate from "../assets/Generate-logo.png";
+import Chubb from "../assets/740_CHUBB_Logo_Purple_RGB.png";
 
 class LogoCarousel extends Component{
   render(){
@@ -33,9 +34,12 @@ class LogoCarousel extends Component{
           <div className="container">
             <img src={Milford}/>
           </div>
-          <div className="container">
+          {/* <div className="container">
             <img src={Generate} />
           </div>
+          <div className="container">
+            <img src={Chubb} />
+          </div> */}
         </Slider>
       </div>
     );
