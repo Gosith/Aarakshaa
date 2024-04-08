@@ -48,6 +48,7 @@ label{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .form-container select{
@@ -64,6 +65,10 @@ label{
     margin-bottom: 15px;
 }
 
+.address{
+    margin-top: 50px;
+}
+
 .contact-info{
     display: flex;
     margin: 4rem 6rem;
@@ -71,8 +76,8 @@ label{
 }
 
 .contact-container{
-    width: 50%;
-    margin: 2rem 4rem;
+    width: 45%;
+    margin: 1rem 2rem;
 }
 
 .map {
@@ -84,11 +89,23 @@ label{
 
 @media screen and (max-width:855px){
     .form-container{
-        margin: 4rem 2rem;
+        width: 100%;
+        margin: 2rem 0 0 0 ;
     }
     .form-container form{
         padding-top: 2rem;
         width: 90%;
+    }
+    
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+    .contact-container{
+        width: 100%;
+        margin: 2rem 0 0 0;
     }
     
 }

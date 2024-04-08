@@ -57,11 +57,16 @@ const ContactForm = () => {
             <div className="contact-container">
 
                 <h2>
-                    OUR CONTACT INFORMATION
+                  REACH OUT TO US!
                 </h2>
                 <div className="map-section">
                     <iframe className="map" title="Google Map" width="400%" height="300" frameBorder="0" 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.8767815837027!2d172.4914737120393!3d-43.62992347098268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3219004b2c88a5%3A0x43f204f68099dd2b!2sAarakshaa%20Insurance%20and%20Mortgages!5e0!3m2!1sen!2slk!4v1711559273473!5m2!1sen!2slk"></iframe>
+                </div>
+                <br></br>
+                <div>
+                  
+                    <p className="address">+94774768114, <br /> Level 2, 137 Kilmore Street, Christchurch 8011</p>
                 </div>
 
                
@@ -91,6 +96,7 @@ const ContactForm = () => {
                 /> */}
                     <label className="left-align">Please select your field of interest :</label>
                     <select value={subject} name="cars" id="cars" onChange={(e) => setSubject(e.target.value)}>
+                        <option value="Pick one">Pick the category</option>
                         <option value="Personal Insurance">Personal Insurance</option>
                         <option value="Kiwi Saver">Kiwi Saver</option>
                         <option value="mortgage">Mortgage</option>

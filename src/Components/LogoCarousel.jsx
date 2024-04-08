@@ -17,7 +17,7 @@ class LogoCarousel extends Component{
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 5000,
+      speed: 6000,
       autoplaySpeed: 0,
       cssEase: "linear"
     };
@@ -34,12 +34,12 @@ class LogoCarousel extends Component{
           <div className="container">
             <img src={Milford}/>
           </div>
-          {/* <div className="container">
+          <div className="container-gen">
             <img src={Generate} />
           </div>
-          <div className="container">
+          <div className="container-chubb">
             <img src={Chubb} />
-          </div> */}
+          </div>
         </Slider>
       </div>
     );
