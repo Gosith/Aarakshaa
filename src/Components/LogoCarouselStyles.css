@@ -6,7 +6,23 @@
     height: 40vmin;
     pointer-events: none;
   }
+
   
+
+
+  .container-gen img{
+    height: 50px;
+    width:200px;
+    margin-top: 50px;
+  }
+  
+  .container-chubb img{
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 200px;
+  }
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
