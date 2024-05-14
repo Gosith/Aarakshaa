@@ -10,17 +10,43 @@ import Generate from "../assets/Generate-logo.png";
 import Chubb from "../assets/740_CHUBB_Logo_Purple_RGB.png";
 
 class LogoCarousel extends Component{
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: window.innerWidth < 850 // Initially checking if the screen width is less than 850px
+    };
+    this.handleResize = this.handleResize.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize); // Adding event listener for window resize
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize); // Removing event listener when component unmounts
+  }
+
+  handleResize() {
+    this.setState({
+      isMobile: window.innerWidth < 850 // Updating isMobile state based on screen width
+    });
+  }
+
   render(){
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: this.state.isMobile ? 1 : 4,
       slidesToScroll: 1,
       autoplay: true,
       speed: 6000,
       autoplaySpeed: 0,
       cssEase: "linear"
     };
+
+   
+    
     return(
       <div className="mainContainer">
         <h1>Our Providers</h1>
@@ -31,7 +57,7 @@ class LogoCarousel extends Component{
           <div className="container">
             <img src={Aurora} />
           </div>
-          <div className="container">
+          <div className="container-mil">
             <img src={Milford}/>
           </div>
           <div className="container-gen">

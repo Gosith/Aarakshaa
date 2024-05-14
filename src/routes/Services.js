@@ -4,10 +4,12 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import img from "../assets/Corporate Office Looper Q3 2021.jpg";
 import Hero from "../Components/Hero";
-import Service from "../Components/Services";
 import ksaver from "../assets/ols.jpeg";
 import persins from "../assets/russel.jpg";
-import mort from "../assets/istockphoto-1368330586-170667a.webp";
+import mort from "../assets/keys.jpg";
+import illness from "../assets/ill.jpg";
+import trauma from "../assets/trauma.jpg";
+import disabled from "../assets/disability.jpg";
 
 function Services() {
     return (
@@ -81,7 +83,7 @@ function Services() {
                     <div className='service-image'>
                         <div className='rounded-image'>
                             <a className='content-link' href="/home">
-                                <img className='img-area' src={ksaver} alt="" />
+                                <img className='img-area' src={disabled} alt="" />
                                 <div className='description-div'>
                                 </div>
                             </a>
@@ -94,7 +96,7 @@ function Services() {
                     <div className='service-image'>
                         <div className='rounded-image'>
                             <a className='content-link' href="/home">
-                                <img className='img-area' src={mort} alt="" />
+                                <img className='img-area' src={trauma} alt="" />
                                 <div className='description-div'>
 
                                 </div>
@@ -105,6 +107,23 @@ function Services() {
                         <h2>Trauma Cover</h2>
                         <p className='service-para'>Trauma Cover provides a lump-sum payment should you suffer one of the Covered Conditions listed by your provider. These range from Cancer, Strokes, Heart Attacks, through to Dementia. The Covered Conditions are by nature serious and potentially life-threatening and, as a result, can have a significant financial impact. Trauma Cover is designed to help alleviate this financial impact.</p>
                     </div>
+                </div>
+                <div className="service-carousel-rev" >
+                    <div className='service-description-rev'>
+                        <h2>Life and Terminal illness</h2>
+                        <p className='service-para-rev'>A cover which you cannot take when you need it, it will be too late. Yes, your family and loved ones need some protection if you are no longer available to look after them. This is exactly what a life Insurance do. Having young kids, a big mortgage and if you don’t have enough savings, then talk to us. It is not just taking a life insurance it is taking the right cover and the right amount which suits your budget. We will explain everything in plain English and we can promise you that we don’t push you to take a cover, instead we will educate you so that you take a cover with confidence and from the best advisors. Regular ongoing reviews, changing the cover according to your needs and helping at the claim times are very important and we can assure that we are available when you need us most, including week-ends.
+                            </p>
+                    </div>
+                    <div className='service-image'>
+                        <div className='rounded-image'>
+                            <a className='content-link' href="/home">
+                                <img className='img-area' src={illness} alt="" />
+                                <div className='description-div'>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

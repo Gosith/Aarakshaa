@@ -13,13 +13,19 @@
   .container-gen img{
     height: 50px;
     width:200px;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   
+.container-mil img{
+  height: 90px;
+  width: 110px;
+  margin-top: 28px;
+  margin-left: 85px;
+}
   
   .container-chubb img{
     height: 40px;
-    margin-top: 60px;
+    margin-top: 65px;
     margin-left: 20px;
     width: 200px;
   }

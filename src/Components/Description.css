@@ -104,6 +104,17 @@ body{
       flex-direction: column-reverse;
       margin-top: 2.5rem;
     }
+
+    .desc-des-text{
+      width: 100%;
+      line-height: 1.5rem;
+      align-items: center;
+      text-align: justify;
+      font-size: 0.9rem;
+      color: rgba(0, 0, 0, 0.588);
+      /* height: 20rem; */
+    }
+    
   
     .des-text{
       width: 100%;
