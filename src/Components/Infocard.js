@@ -14,7 +14,9 @@ function teamcard() {
                         {item.team.map((item2, index2) => {
                             return (
                                 <div className="member-carousel">
+                                    <h4>{item2.role}</h4>
                                     <div className='member-image'>
+                                    
                                         <div className='member-rounded-image'>
 
                                             <img className='member-img-area' src={item2.pp} alt="" />
@@ -26,7 +28,7 @@ function teamcard() {
                                     </div>
                                     <div className='member-description'>
                                         <h2>{item2.name}</h2>
-                                        <h4>{item2.role}</h4>
+                                        
                                         <p className='member-para'>
                                             {item2.description}
                                         </p>

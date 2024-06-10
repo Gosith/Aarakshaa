@@ -66,7 +66,7 @@ const ContactForm = () => {
                 <br></br>
                 <div>
                   
-                    <p className="address">+94774768114, <br /> Level 2, 137 Kilmore Street, Christchurch 8011</p>
+                    <p className="address">0800SHEHAN (743426), <br />573, Birchs Road, Lincoln 7608, Canterbury, New Zealand</p>
                 </div>
 
                

@@ -37,4 +37,17 @@ body {
     100% { opacity: 0.1 }
   }
 
+  
+@media screen and (max-width: 850px) {
+  
+  .slideshow-container {
+    min-width: 100vw;
+    margin-top: 5rem;
+    /* height: 65vh; */
+    animation: all 360ms;
+    overflow: hidden;
+    position: relative;
+  }
+  
+}
  
