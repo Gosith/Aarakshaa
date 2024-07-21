@@ -63,11 +63,12 @@
 
 .nav-links {
   text-decoration: none;
-  color: #000000;
+  color: #4699b3;
   font-size: 1.2rem;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-shadow: #f2f2f26d;
   margin: 0.7rem 1rem;
   transition: all 600ms ease;
   white-space: nowrap;
@@ -232,9 +233,8 @@ li:not(:last-child) {
 
   .nav-links {
     display: block;
-    width: 100%;
     font-size: 1.2rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   .menu-icons {
     display: block;

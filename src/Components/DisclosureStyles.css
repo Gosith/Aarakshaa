@@ -1,0 +1,31 @@
+.disclosure-container{
+    position: relative;
+    margin: 4rem 6rem;
+    text-align: start;
+    text-align: center;
+}
+
+.disclosure-container h1{
+    padding-bottom: 2rem;
+ }
+
+ .disclosure-container p{
+    padding-bottom: 1rem;
+ }
+
+.download-button {
+    background-color: transparent;
+    border: 2px solid rgb(61, 192, 236);
+    color:  rgb(61, 192, 236);
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: lightblue;
+    color: white;
+}

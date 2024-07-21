@@ -23,6 +23,13 @@ export const MenuItems = [
         cName : "nav-links",
         icon : "fa-solid fa-bath"
     },
+
+    {
+        title : "DISCLOSURE",
+        url : "/disclosure",
+        cName : "nav-links",
+        icon : "fa-solid fa-address-book"
+    },
     {
         title : "CONTACT",
         url : "/contact",

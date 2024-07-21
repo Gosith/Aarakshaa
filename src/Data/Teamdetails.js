@@ -30,12 +30,6 @@ export const Teamdetails = [
                 name: "Isuru Rodrigo",
                 description: "With over 12 years in the banking and finance industry and 21 years in global equity markets, I bring extensive expertise and passion to my role at Aarakshaa. As Head of Broker Support, I oversee a team dedicated to providing brokers with the tools, resources, and guidance they need to succeed in complex financial markets. My career is marked by a strong track record in market analysis, risk management, and strategic planning. This experience ensures that I stay ahead of market trends and developments, continuously seeking innovative solutions for our clients. I am committed to delivering exceptional service, fostering strong industry relationships, and maintaining the highest standards of integrity and transparency. At Aarakshaa, our goal is to exceed client expectations and support brokers in navigating the ever-evolving financial landscape.",
 
-            }, {
-                pp: Warunaimg,
-                role: "Head of Education",
-                name: "Waruna Tennekoon",
-                description: "Waruna is a Banking professional from Sri Lanka. He worked at HSBC Middle East in UAE for nearly a decade. Waruna came to New Zealand in 2019 and joined the logistics industry, quickly making his way to becoming a Planning & Distribution Manager in a leading multinational company. Waruna got the opportunity to meet a lot of people who came for studies, hoping to make New Zealand their home. This prompted him to help these students in realizing their dreams in New Zealand. This is one main reason for him to get into education consultancy. Living in New Zealand for over 5 years gives him the ground reality of what to expect and what needs to be done to fulfill student goals & dreams. He is dedicated & committed to choosing the right education and career pathways for International students.",
-
             }
         ]
     }

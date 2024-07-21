@@ -7,6 +7,7 @@ import Services from './routes/Services';
 import Team from './routes/Team';
 import Contact from './routes/Contact';
 import { React, forwardRef } from "react";
+import Disclosure from "./routes/Disclosure";
 function App() {
   return (
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/disclosure" element={<Disclosure />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       
